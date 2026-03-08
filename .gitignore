@@ -218,3 +218,8 @@ Thumbs.db
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Audio files
+*.aac
+*.wav
+*.mp3
