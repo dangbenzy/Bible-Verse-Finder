@@ -200,7 +200,20 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Large data files - too big for GitHub
+data/
+*.db
+*.pkl
+*.json
 
+# Whisper model cache
+*.pt
+
+# Environment variables
+.env
+
+# OS files
+Thumbs.db
 # Marimo
 marimo/_static/
 marimo/_lsp/
